@@ -1,0 +1,68 @@
+header {
+ width: 1300px;
+ height:100px;;
+ border-bottom:1px solid #EDEDED;
+}
+.logo {
+ float: left;
+}
+
+.buttons img {
+
+  padding: 0px 0px;
+
+}
+
+.container {
+  max-width: 1000px;
+  margin:10px auto;
+  background-color: #FAFAFA;
+}
+
+#contain {
+width: 100%;
+height: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  margin: 15px;
+  position: relative;
+}
+
+.col img {
+  max-width: 100%;
+  width: 100%;
+  height:100%
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 400px) {
+  .row {
+    display: block;
+  }
+  .col {
+    padding: 0;
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: grey;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  opacity: 0;
+}
+
+.col:hover .overlay {
+  transition: 1.5s;
+  opacity: 1;
+}
