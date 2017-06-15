@@ -1,7 +1,7 @@
 header {
  width: 1300px;
  height:100px;;
- border-bottom:1px solid #EDEDED;
+ border-bottom:1px solid grey;
 }
 .logo {
  float: left;
